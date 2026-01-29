@@ -1,4 +1,8 @@
-﻿using System;
+﻿using GoldAlert.Application.Contracts.Persistence;
+using GoldAlert.Domain.Alerts;
+using GoldAlert.Domain.Enums;
+using Microsoft.EntityFrameworkCore;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;

@@ -1,5 +1,6 @@
 ﻿using GoldAlert.Application.Common;
 using GoldAlert.Application.Contracts.Persistence;
+using GoldAlert.Domain.Alerts;
 using System;
 using System.Collections.Generic;
 using System.Linq;

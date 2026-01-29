@@ -1,6 +1,7 @@
-﻿using GoldPing.Domain.Users;
-using GoldPing.Domain.Alerts;
+﻿
 using Microsoft.EntityFrameworkCore;
+using GoldAlert.Domain.Users;
+using GoldAlert.Domain.Alerts;
 namespace GoldAlert.Infrastructure.Persistence
 {
     public class GoldPingDbContext : DbContext
