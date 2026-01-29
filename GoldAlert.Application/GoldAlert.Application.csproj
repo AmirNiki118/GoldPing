@@ -6,4 +6,8 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\GoldAlert.Domain\GoldAlert.Domain.csproj" />
+  </ItemGroup>
+
 </Project>

@@ -1,8 +1,7 @@
-﻿using GoldAlert.Infrastructure.Persistence;
+﻿
+using GoldAlert.Application.Contracts.Persistence;
+using GoldAlert.Infrastructure.Persistence;
 using GoldAlert.Infrastructure.Persistence.Repositories;
-using GoldPing.Application.Contracts.Persistence;
-using GoldPing.Infrastructure.Persistence;
-using GoldPing.Infrastructure.Persistence.Repositories;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;

@@ -12,4 +12,9 @@
     <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="8.0.23" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\GoldAlert.Application\GoldAlert.Application.csproj" />
+    <ProjectReference Include="..\GoldAlert.Domain\GoldAlert.Domain.csproj" />
+  </ItemGroup>
+
 </Project>
